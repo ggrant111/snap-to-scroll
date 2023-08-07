@@ -1,0 +1,17 @@
+.scroller {
+    text-align: center;
+    height: auto;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 40px;
+}
+.scroller section {
+    background-color: red;
+    scroll-snap-align: start;
+    display: flex auto;
+
+}
+p {
+    text-align: center;
+    width: 75px;
+}
